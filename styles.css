@@ -1,0 +1,103 @@
+body{
+    font-size: 14px;
+
+    background-color:rgba(225, 174, 107, 0.69);
+}
+#main{
+    position: relative;
+    top:10rem;
+    display: flex;
+    flex-direction: row;
+    width:50%;
+    margin: 0 auto;
+    height: 300px;
+    border:0px solid;
+    box-shadow: 0px 0px 20px #000000;
+}
+#first{
+    width: 50%;
+    height:auto;
+    color: #130e0e;
+    background-color: #ffffff;
+    transition-duration: 0.5s;
+    margin:0;
+    /* border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px; */
+    overflow:wrap;
+}
+
+#image{
+    width:50%;
+    /* border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px; */
+}
+#watch{
+    font-weight: 300;
+    position: relative;
+    top:0rem;
+    left:3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Titan{
+    font-size: larger;
+    position: relative;
+    top:1rem;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    padding: 10%;
+    transform: translateY(-70px);
+
+}
+#ok{
+    position:relative;
+    top:-6rem;
+    left:0.5rem;
+    font-size: large;
+    font-weight: 400;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    left: 1.5rem;
+}
+button{
+    background-color:green;
+    height: 2.5rem;
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    border: 3px solid green;
+    padding:0.6rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    bottom: 3rem;
+    top:-7rem;
+    left: 3rem;
+    font-family: cursive;
+    box-shadow: 0.5px 0.5px 10px #0c2e26;
+    transition-duration: 0.5s;
+}
+button section {
+    position: relative;
+    top:-0.2rem;
+    margin:0 auto;
+    font-size: 1rem;
+}
+/* button price{
+    color: green;
+} */
+button:hover{
+    background-color: white;
+    color:green;
+    transition-duration: 0.5s;
+    cursor:pointer;
+}
+ #price{
+    top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    top: -7rem;
+    left: 3rem;
+    font-size: large;
+} 
